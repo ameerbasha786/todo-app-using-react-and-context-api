@@ -1,22 +1,91 @@
 .App {
+border-radius: 20px;
   text-align: center;
+  margin-top:1px;
+  margin-left:350px;
+  width:50%;
+  background-color:whitesmoke;
+  outline-color:whitesmoke ;
+  box-shadow: 1px grey;
 }
 
-.App-logo {
-  height: 40vmin;
-}
+label{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
-.App-link {
-  color: #09d3ac;
+h1{
+
+  color:#12bd06;
+
+}
+
+.mytodo{
+
+  border:1 px solid #3434eb;
+  overflow: overlay;
+  text-align: center;
+
+}
+
+.inputtext{
+
+  padding: 8px;
+  border-radius:10px;
+  outline-color: white;
+  margin:10px;
+  
+
+}
+
+
+
+.modeldiv{
+  
+  width:320px;
+  margin:auto;
+  overflow:overlay
+
+}
+
+.mybtn{
+
+  color: white;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    width: 800;
+    height: 37px;
+    width: 61px;
+    outline-color: #3434eb;
+    margin: 10px;
+
+}
+
+.mybtn2{
+  color: white;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    width: 800;
+    height: 37px;
+    width: 61px;
+    outline-color: #3434eb;
+    margin: 10px;
+}
+
+ul{
+  list-style-type:none
+}
+
+li{
+  margin: auto;
+  color: #3434eb;
+  margin:"auto";
+  display:"flex";
+  flex-direction:"row";
+   justify-content:"space-between" 
+}
+
+.modelmaindiv{
+  border:1px solid #3434eb
 }
